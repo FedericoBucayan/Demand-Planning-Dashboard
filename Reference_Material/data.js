@@ -1,0 +1,4722 @@
+/* Automated export from build_dashboard.py */
+const DASHBOARD_DATA = {
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "months": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN",
+    "JUL",
+    "AUG",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DEC"
+  ],
+  "categories": [
+    "Beverage"
+  ],
+  "subcategories": [
+    "Soda",
+    "Water"
+  ],
+  "products": [
+    "Coke1000ml",
+    "Coke2000ml",
+    "Coke355ml",
+    "Coke500ml",
+    "WaterBottle1000ml",
+    "WaterBottle250ml",
+    "WaterBottle350ml",
+    "WaterBottle500ml"
+  ],
+  "records": [
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 5512,
+      "sales": 5104.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1562,
+      "sales": 1952.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 962,
+      "sales": 1159.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 8508,
+      "sales": 9560.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 10176,
+      "sales": 8772.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 13797,
+      "sales": 12543.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 5327,
+      "sales": 4673.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1923,
+      "sales": 2185.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 978,
+      "sales": 1151.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 10344,
+      "sales": 9851.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 8612,
+      "sales": 8878.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 11988,
+      "sales": 12753.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 5230,
+      "sales": 4798.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1911,
+      "sales": 1647.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 994,
+      "sales": 1104.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 10078,
+      "sales": 10608.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 9335,
+      "sales": 8486.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 14593,
+      "sales": 13147.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 4951,
+      "sales": 4542.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1410,
+      "sales": 1762.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1198,
+      "sales": 998.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 8585,
+      "sales": 8943.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 7133,
+      "sales": 8492.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 11551,
+      "sales": 12420.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 3665,
+      "sales": 4312.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1984,
+      "sales": 1872.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 836,
+      "sales": 1007.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 10044,
+      "sales": 9475.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 9609,
+      "sales": 8284.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 7487,
+      "sales": 9131.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 4118,
+      "sales": 4118.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1908,
+      "sales": 1889.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1176,
+      "sales": 1032.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 10936,
+      "sales": 9764.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 11534,
+      "sales": 9612.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 13140,
+      "sales": 11526.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 3930,
+      "sales": 4735.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 1904,
+      "sales": 1715.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 1136,
+      "sales": 1248.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 7246,
+      "sales": 8836.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 8363,
+      "sales": 7816.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 10221,
+      "sales": 12314.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 3208,
+      "sales": 3605.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 2517,
+      "sales": 2288.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 1390,
+      "sales": 1241.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 9755,
+      "sales": 10057.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 6853,
+      "sales": 7614.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 11393,
+      "sales": 11626.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 3861,
+      "sales": 3900.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 1614,
+      "sales": 1855.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 168,
+      "sales": 183.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 1592,
+      "sales": 1338.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 10694,
+      "sales": 9219.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 8903,
+      "sales": 8399.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 10805,
+      "sales": 11255.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 3062,
+      "sales": 3328.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 2043,
+      "sales": 1892.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 333,
+      "sales": 300.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 1016,
+      "sales": 1154.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10310,
+      "sales": 10310.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 7743,
+      "sales": 8900.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10581,
+      "sales": 9889.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 4624,
+      "sales": 4718.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 2572,
+      "sales": 2217.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1084,
+      "sales": 1204.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1653,
+      "sales": 1574.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 11379,
+      "sales": 11156.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 9608,
+      "sales": 10796.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 9086,
+      "sales": 10565.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 4709,
+      "sales": 4805.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 2186,
+      "sales": 2277.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 193,
+      "sales": 222.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 1309,
+      "sales": 1179.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 12039,
+      "sales": 12807.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 7783,
+      "sales": 9156.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2021,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 15973,
+      "sales": 14521.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 4313,
+      "sales": 4493.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1793,
+      "sales": 2214.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 155,
+      "sales": 165.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1289,
+      "sales": 1276.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 11317,
+      "sales": 9431.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 7364,
+      "sales": 8182.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 11921,
+      "sales": 11141.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 4772,
+      "sales": 4725.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 2158,
+      "sales": 2225.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 322,
+      "sales": 343.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1970,
+      "sales": 1913.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 8843,
+      "sales": 8670.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 10643,
+      "sales": 9764.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 9241,
+      "sales": 11409.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 4568,
+      "sales": 4435.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1691,
+      "sales": 2037.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 273,
+      "sales": 307.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1358,
+      "sales": 1141.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 10511,
+      "sales": 9916.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 9267,
+      "sales": 9858.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 11330,
+      "sales": 11108.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 5443,
+      "sales": 4536.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1628,
+      "sales": 1732.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 441,
+      "sales": 525.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 847,
+      "sales": 973.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 13949,
+      "sales": 11624.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 8941,
+      "sales": 7451.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 13107,
+      "sales": 11108.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 5893,
+      "sales": 4911.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1875,
+      "sales": 1913.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 206,
+      "sales": 212.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1297,
+      "sales": 1259.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 9900,
+      "sales": 10102.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 7987,
+      "sales": 8407.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 8778,
+      "sales": 10450.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 2591,
+      "sales": 3239.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 2025,
+      "sales": 2355.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 647,
+      "sales": 578.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1792,
+      "sales": 1757.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 10016,
+      "sales": 11513.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 7022,
+      "sales": 8071.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 9891,
+      "sales": 10522.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 2682,
+      "sales": 3048.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 2060,
+      "sales": 2452.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 823,
+      "sales": 722.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 1644,
+      "sales": 1890.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 9587,
+      "sales": 11692.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 8142,
+      "sales": 7905.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 13032,
+      "sales": 12067.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 4596,
+      "sales": 4596.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 1577,
+      "sales": 1971.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 836,
+      "sales": 760.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 1161,
+      "sales": 1235.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 10194,
+      "sales": 10297.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 6535,
+      "sales": 6345.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 11016,
+      "sales": 11127.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 3228,
+      "sales": 3936.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 421,
+      "sales": 369.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 2470,
+      "sales": 2058.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 874,
+      "sales": 1092.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 998,
+      "sales": 960.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 8536,
+      "sales": 7359.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 9436,
+      "sales": 8819.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 11019,
+      "sales": 10298.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 4040,
+      "sales": 4644.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 538,
+      "sales": 598.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 3068,
+      "sales": 2668.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 802,
+      "sales": 944.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 1821,
+      "sales": 1543.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10075,
+      "sales": 10718.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 4786,
+      "sales": 5983.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10032,
+      "sales": 11400.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 3636,
+      "sales": 3673.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 937,
+      "sales": 852.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 2937,
+      "sales": 2879.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 801,
+      "sales": 715.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1717,
+      "sales": 1480.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 9391,
+      "sales": 11180.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 10551,
+      "sales": 9096.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 13151,
+      "sales": 11436.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 6648,
+      "sales": 5540.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 639,
+      "sales": 614.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 2507,
+      "sales": 3021.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 1472,
+      "sales": 1338.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 1627,
+      "sales": 1521.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 10880,
+      "sales": 12800.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 7798,
+      "sales": 7089.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2022,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 11440,
+      "sales": 13619.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 3402,
+      "sales": 3150.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 682,
+      "sales": 593.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1474,
+      "sales": 1798.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 680,
+      "sales": 687.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1356,
+      "sales": 1634.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 7398,
+      "sales": 8602.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 7071,
+      "sales": 6865.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 9705,
+      "sales": 10435.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 4230,
+      "sales": 3881.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 560,
+      "sales": 483.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1957,
+      "sales": 2302.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 767,
+      "sales": 825.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1664,
+      "sales": 1387.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 8376,
+      "sales": 8461.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 4480,
+      "sales": 5398.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 12550,
+      "sales": 11205.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 3759,
+      "sales": 4529.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 708,
+      "sales": 681.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1652,
+      "sales": 2065.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 797,
+      "sales": 712.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1006,
+      "sales": 1143.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 9037,
+      "sales": 10154.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 9401,
+      "sales": 7834.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 12431,
+      "sales": 10716.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 3462,
+      "sales": 3683.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 434,
+      "sales": 438.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 2065,
+      "sales": 1912.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 564,
+      "sales": 680.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1182,
+      "sales": 1148.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10197,
+      "sales": 10734.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 6488,
+      "sales": 6554.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10861,
+      "sales": 9874.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 3382,
+      "sales": 3103.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 934,
+      "sales": 1139.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1753,
+      "sales": 1948.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 581,
+      "sales": 564.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1379,
+      "sales": 1210.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 7942,
+      "sales": 8540.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 6954,
+      "sales": 6439.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 10514,
+      "sales": 9064.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 2503,
+      "sales": 2877.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 565,
+      "sales": 538.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1501,
+      "sales": 1649.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 497,
+      "sales": 469.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 928,
+      "sales": 1132.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 8371,
+      "sales": 9099.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 7627,
+      "sales": 6997.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 7947,
+      "sales": 9692.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 3828,
+      "sales": 3512.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 786,
+      "sales": 771.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 2022,
+      "sales": 1926.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 848,
+      "sales": 1009.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 1410,
+      "sales": 1237.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 10746,
+      "sales": 9344.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 8184,
+      "sales": 6995.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 8632,
+      "sales": 8632.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 3906,
+      "sales": 3756.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 606,
+      "sales": 583.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 2402,
+      "sales": 2036.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 669,
+      "sales": 587.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 1320,
+      "sales": 1200.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 10395,
+      "sales": 9715.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 6940,
+      "sales": 5881.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 9797,
+      "sales": 9156.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 3148,
+      "sales": 2836.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 812,
+      "sales": 902.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 2302,
+      "sales": 2302.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 764,
+      "sales": 721.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 1341,
+      "sales": 1197.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 8118,
+      "sales": 10148.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 8460,
+      "sales": 7554.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 10054,
+      "sales": 8977.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 3338,
+      "sales": 3751.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 809,
+      "sales": 843.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 2293,
+      "sales": 2270.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 583,
+      "sales": 686.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 1120,
+      "sales": 1400.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 12912,
+      "sales": 10850.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 6941,
+      "sales": 7978.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 11430,
+      "sales": 10115.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 3868,
+      "sales": 3306.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1034,
+      "sales": 891.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 2459,
+      "sales": 2435.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 479,
+      "sales": 428.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1168,
+      "sales": 1180.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 10007,
+      "sales": 10646.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 8980,
+      "sales": 8164.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 11475,
+      "sales": 11034.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 4663,
+      "sales": 4399.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 597,
+      "sales": 591.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 2129,
+      "sales": 2108.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 662,
+      "sales": 619.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 906,
+      "sales": 964.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 11025,
+      "sales": 11025.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 8838,
+      "sales": 8498.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2023,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 11733,
+      "sales": 14136.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 3761,
+      "sales": 4226.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 3804,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 962,
+      "sales": 1069.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 615,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1894,
+      "sales": 2368.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 2608,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 684,
+      "sales": 684.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1053,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1886,
+      "sales": 1669.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 1274,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 9999,
+      "sales": 9258.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 10087,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 7074,
+      "sales": 6935.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 6493,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 7410,
+      "sales": 7883.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JAN",
+      "packagingUnit": "Case",
+      "forecast": 9450,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 3951,
+      "sales": 4541.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 3645,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 879,
+      "sales": 862.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 676,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 2892,
+      "sales": 2451.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 2508,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 462,
+      "sales": 577.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 827,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1041,
+      "sales": 1183.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 1238,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 11115,
+      "sales": 9582.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 9963,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 7824,
+      "sales": 7984.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 7091,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 11881,
+      "sales": 10422.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "FEB",
+      "packagingUnit": "Case",
+      "forecast": 10038,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 3999,
+      "sales": 4209.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 3926,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 689,
+      "sales": 682.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 662,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1785,
+      "sales": 2231.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 2614,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 352,
+      "sales": 440.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 837,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1049,
+      "sales": 1279.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 1251,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 8738,
+      "sales": 7872.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 10044,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 8005,
+      "sales": 7212.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 6897,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 11150,
+      "sales": 9370.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "MAR",
+      "packagingUnit": "Case",
+      "forecast": 9856,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 4089,
+      "sales": 3717.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 3822,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 837,
+      "sales": 845.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 702,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1604,
+      "sales": 1445.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1453,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 792,
+      "sales": 762.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 832,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 999,
+      "sales": 1086.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 1262,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10362,
+      "sales": 11910.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10021,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 8532,
+      "sales": 7550.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 7539,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10287,
+      "sales": 10085.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "APR",
+      "packagingUnit": "Case",
+      "forecast": 10451,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 3539,
+      "sales": 4316.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 4358,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 777,
+      "sales": 769.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 762,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 2223,
+      "sales": 2097.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 2467,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 581,
+      "sales": 514.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 795,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 969,
+      "sales": 1031.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 1262,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 6843,
+      "sales": 8554.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 9853,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 9906,
+      "sales": 8540.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 7396,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 8749,
+      "sales": 9209.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "MAY",
+      "packagingUnit": "Case",
+      "forecast": 10020,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 3427,
+      "sales": 3295.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 4219,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 693,
+      "sales": 845.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 818,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1537,
+      "sales": 1671.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 2208,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 812,
+      "sales": 759.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 753,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 784,
+      "sales": 761.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 1262,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 8658,
+      "sales": 8926.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 10079,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 6222,
+      "sales": 7496.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 7342,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 7933,
+      "sales": 9333.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JUN",
+      "packagingUnit": "Case",
+      "forecast": 10522,
+      "sales": 0.0
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 4288,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 821,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 2480,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 768,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 1182,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 10145,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 7570,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "JUL",
+      "packagingUnit": "Case",
+      "forecast": 10343,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 4458,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 784,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 2279,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 757,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 10163,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 7266,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "AUG",
+      "packagingUnit": "Case",
+      "forecast": 10459,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 4314,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 817,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 2371,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 760,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 100,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 10306,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 7701,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "SEP",
+      "packagingUnit": "Case",
+      "forecast": 9936,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 4372,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 822,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 2235,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 646,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 100,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10337,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 7953,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "OCT",
+      "packagingUnit": "Case",
+      "forecast": 10708,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 4648,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 843,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 2435,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 663,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 1270,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 10819,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 8138,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "NOV",
+      "packagingUnit": "Case",
+      "forecast": 10760,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke1000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 4708,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke2000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 853,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke355ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 2340,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Soda",
+      "product": "Coke500ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 682,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle1000ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 1277,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle250ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 10674,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle350ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 8135,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 0,
+      "sales": null
+    },
+    {
+      "category": "Beverage",
+      "subcategory": "Water",
+      "product": "WaterBottle500ml",
+      "year": 2024,
+      "month": "DEC",
+      "packagingUnit": "Case",
+      "forecast": 12428,
+      "sales": null
+    }
+  ]
+};

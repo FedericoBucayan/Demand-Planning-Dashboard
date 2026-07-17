@@ -11,9 +11,9 @@ echo.
 :: Run Python script
 py -V >nul 2>&1
 if %ERRORLEVEL% EQU 0 (
-    py "Reference Material\build_dashboard.py"
+    py "reference_material\build_dashboard.py"
 ) else (
-    python "Reference Material\build_dashboard.py"
+    python "reference_material\build_dashboard.py"
 )
 
 if %ERRORLEVEL% NEQ 0 (

@@ -62,7 +62,7 @@ If you prefer running it manually from your terminal:
 * **`Update_Dashboard.bat`**: One-click batch script to compile the Excel workbook database and launch the report.
 * **`Forecasting_&_Actuals_Database.xlsx`**: Excel database of forecast and actual sales records.
 * **`README.md`**: Project documentation (this file).
-* **`Reference Material/`**: Directory containing backend, source, and visual reference assets:
+* **`reference_material/`**: Directory containing backend, source, and visual reference assets:
   * **`build_dashboard.py`**: Python ETL script to aggregate and clean spreadsheet data.
   * **`data.js`**: Compiled JSON database loaded dynamically by the dashboard.
   * **`Reference_Formulas.xlsx`**: Excel reference workbook with mathematical formulas.

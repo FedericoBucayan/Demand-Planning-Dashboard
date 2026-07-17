@@ -1,6 +1,6 @@
 # Demand Planning Dashboard
 
-🔗 [Live Interactive Dashboard Demo](https://federicobucayan.github.io/Retail-Performance-Dashboard/)
+🔗 [Live Interactive Dashboard Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/)
 
 An interactive demand planning and Forecast Value Add (FVA) dashboard that aggregates monthly forecast and sales databases, calculates forecasting accuracy metrics (WAPE, MAD, Bias %, Abs Error) dynamically, and displays category and product-level insights in a clean corporate visual interface.
 

@@ -806,9 +806,11 @@
 
         const formatVolK = (val) => {
             if (val === null || val === undefined) return 'N/A';
-            if (val >= 1000000) return (val / 1000000).toFixed(2) + 'M';
-            if (val >= 1000) return (val / 1000).toFixed(1) + 'K';
-            return val.toFixed(0);
+            const sign = val < 0 ? '-' : '';
+            const abs = Math.abs(val);
+            if (abs >= 1000000) return sign + (abs / 1000000).toFixed(2) + 'M';
+            if (abs >= 1000) return sign + (abs / 1000).toFixed(1) + 'K';
+            return sign + abs.toFixed(0);
         }
 
         // --- DASHBOARD UPDATE ENGINE ---
@@ -913,7 +915,7 @@
             document.getElementById('kpi-error').textContent = hasActuals ? formatVolK(computed.rawErrorSum) : 'N/A';
             document.getElementById('kpi-bias').textContent = hasActuals ? formatPercent(computed.biasVal) : 'N/A';
             document.getElementById('kpi-abs-error').textContent = hasActuals ? formatVolK(computed.absErrorSum) : 'N/A';
-            document.getElementById('kpi-mad').textContent = hasActuals ? formatNum(computed.madVal) : 'N/A';
+            document.getElementById('kpi-mad').textContent = hasActuals ? formatVolK(computed.madVal) : 'N/A';
             document.getElementById('kpi-mape').textContent = hasActuals ? formatPercent(computed.mapeVal) : 'N/A';
             
             // Global Accuracy % (1 - MAPE)

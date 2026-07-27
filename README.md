@@ -1,4 +1,4 @@
-# Demand Planning & Intelligence Dashboard
+# Demand Planning Dashboard
 
 🌐 [Live Interactive Web App Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/) | 📊 [Power BI Project (`.pbip`)](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard.pbip)
 

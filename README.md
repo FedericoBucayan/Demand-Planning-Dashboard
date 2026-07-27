@@ -18,8 +18,8 @@ First and foremost, this project demonstrates deep functional expertise in suppl
 
 ### 2. 🤖 AI-Powered Engineering & Digital Mindset (Co-Created with Google Antigravity)
 Second, this repository showcases a forward-thinking digital mindset and passion for modern technology:
-* **Transparency Statement (Zero Prior Coding Experience)**: For full transparency, I have no traditional software development background. I built this entire project acting as the product manager, domain expert, and system coordinator in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
-* **Vibe Coding Showcase**: Instead of manually writing line-by-line code, I used natural language instructions ("vibe coding") and deep domain expertise to guide AI to build both a custom Web App and a Power BI Developer Mode Star Schema (TMDL/DAX) project from scratch.
+* **Transparency Statement**: I built this entire project combining my domain expertise in supply chain, business data analytics, Power BI, Power Query, Power Pivot, and DAX in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
+* **Bridging Data Analytics & Software Engineering**: While I am highly proficient in data modeling, DAX calculations, and business intelligence, I leveraged agentic AI to bridge the gap into full-stack software development—orchestrating Python ETL automation, web application design (HTML5/JS), and Power BI Developer Mode (`.pbip` TMDL/PBIR) structures.
 * **AI Enthusiast & Early Adopter**: Demonstrates my eagerness to learn, master, and integrate cutting-edge AI tools into daily workflows—bringing a curious, innovative, and digital-first mindset to any progressive organization.
 
 ---
@@ -63,7 +63,7 @@ This project includes a full **Power BI Project (`Demand_Planning_Dashboard.pbip
 
 ## 💻 Tech Stack & Pipeline
 
-* **Business Intelligence**: Power BI Desktop (PBIP format, TMDL Star Schema, DAX).
+* **Business Intelligence**: Power BI Desktop (PBIP format, TMDL Star Schema, DAX, Power Query M).
 * **Web Application**: HTML5, Vanilla JavaScript, Chart.js (v4), Tailwind CSS (v3/v4), Lucide Icons.
 * **Backend & Data Pipeline**: Python 3 (Pandas, Openpyxl) processing raw Excel databases (`Forecasting_&_Actuals_Database.xlsx`).
 

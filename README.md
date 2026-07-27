@@ -1,6 +1,6 @@
 # Demand Planning Dashboard
 
-🌐 [Live Interactive Web App Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/) | 📊 [Power BI Project (`.pbip`)](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard.pbip)
+🌐 [Live Interactive Web App Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/) | 📊 [Power BI Project (`.pbip`)](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard.pbip) | 📄 [Power BI PDF Report Export](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard_PBI_PDF.pdf)
 
 An end-to-end demand planning solution built across two complementary platforms: a **live interactive web dashboard (`index.html`)** and a **native Power BI project (`Demand_Planning_Dashboard.pbip`)**. 
 
@@ -18,7 +18,7 @@ First and foremost, this project demonstrates deep functional expertise in suppl
 
 ### 2. 🤖 AI-Powered Engineering & Digital Mindset (Co-Created with Google Antigravity)
 Second, this repository showcases a forward-thinking digital mindset and passion for modern technology:
-* **Transparency Statement**: I built this entire project combining my domain expertise in supply chain, business data analytics, Power BI, Power Query, Power Pivot, and DAX in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
+* **Transparency Statement**: I built this entire project combining my expertise in supply chain planning, business data analytics and Power BI in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
 * **Bridging Data Analytics & Software Engineering**: While I am highly proficient in data modeling, DAX calculations, and business intelligence, I leveraged agentic AI to bridge the gap into full-stack software development—orchestrating Python ETL automation, web application design (HTML5/JS), and Power BI Developer Mode (`.pbip` TMDL/PBIR) structures.
 * **AI Enthusiast & Early Adopter**: Demonstrates my eagerness to learn, master, and integrate cutting-edge AI tools into daily workflows—bringing a curious, innovative, and digital-first mindset to any progressive organization.
 
@@ -58,6 +58,7 @@ This project includes a full **Power BI Project (`Demand_Planning_Dashboard.pbip
    ```
 2. Double-click **`Demand_Planning_Dashboard.pbip`** to launch the project directly in **Power BI Desktop**.
 3. All Star Schema tables (`Fact_Demand`, `Dim_Product`, `Dim_Date`), DAX measures (`WAPE`, `MAD`, `MAPE %`, `Bias %`), dropdown slicers, and visual cards will load automatically.
+4. Alternatively, view the exported 📄 **[`Demand_Planning_Dashboard_PBI_PDF.pdf`](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard_PBI_PDF.pdf)** file directly on GitHub for a quick visual overview.
 
 ---
 
@@ -72,6 +73,7 @@ This project includes a full **Power BI Project (`Demand_Planning_Dashboard.pbip
 ## 📂 Repository File Guide
 
 * **`Demand_Planning_Dashboard.pbip`**: Power BI Project file (Developer Mode).
+* **`Demand_Planning_Dashboard_PBI_PDF.pdf`**: Exported PDF version of the Power BI report for quick visual inspection.
 * **`Demand_Planning_Dashboard.SemanticModel/`**: TMDL Star Schema model files (`Fact_Demand`, `Dim_Product`, `Dim_Date`, `_Measures`).
 * **`Demand_Planning_Dashboard.Report/`**: PBIR report page layout and visual definitions.
 * **`index.html`**: Interactive web dashboard. Open to view the web report offline.

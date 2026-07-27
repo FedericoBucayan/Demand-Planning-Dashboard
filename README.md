@@ -18,8 +18,32 @@ First and foremost, this project demonstrates deep functional expertise in suppl
 
 ### 2. 🤖 AI-Powered Engineering & Digital Mindset (Co-Created with Google Antigravity)
 Second, this repository showcases a forward-thinking digital mindset and passion for modern technology:
-* **Agentic AI Collaboration**: Both the web application and the Power BI Developer Project (`.pbip` Star Schema TMDL model and DAX calculations) were co-created in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
-* **AI Enthusiast & Early Adopter**: Demonstrates Federico's eagerness to learn, master, and integrate cutting-edge AI tools into daily workflows—bringing a curious, innovative, and digital-first mindset to any progressive organization.
+* **Transparency Statement (Zero Prior Coding Experience)**: For full transparency, I have no traditional software development background. I built this entire project acting as the product manager, domain expert, and system coordinator in partnership with **Google Antigravity** (an advanced agentic AI coding assistant).
+* **Vibe Coding Showcase**: Instead of manually writing line-by-line code, I used natural language instructions ("vibe coding") and deep domain expertise to guide AI to build both a custom Web App and a Power BI Developer Mode Star Schema (TMDL/DAX) project from scratch.
+* **AI Enthusiast & Early Adopter**: Demonstrates my eagerness to learn, master, and integrate cutting-edge AI tools into daily workflows—bringing a curious, innovative, and digital-first mindset to any progressive organization.
+
+---
+
+## 🛠️ Key Dashboard Capabilities & Features
+
+### 1. Forecast Bias Status & Thresholds
+Automated classification of planning bias to identify inventory risk:
+- 🔴 **Over-Forecast (`Bias % > +2%`)**: Forecast significantly exceeds actual sales (risk of excess inventory / working capital tie-up).
+- 🟢 **Under-Forecast (`Bias % < -2%`)**: Sales significantly exceed planned forecast (risk of stockouts / lost revenue).
+- 🔵 **OK Status (`-2% <= Bias % <= +2%`)**: Forecast is accurately aligned with sales actuals.
+
+### 2. Product Portfolio Accuracy Matrix Quadrants
+An interactive bubble chart mapping Sales Cases Volume (Y-Axis) against Forecast Accuracy % (X-Axis), sized by Forecast Volume:
+- 🔴 **Top-Left (High Sales, Low Accuracy)**: **Critical Adjustment Zone**. High-volume, low-predictability products. Focus planning adjustments here first for maximum impact.
+- 🟡 **Bottom-Left (Low Sales, Low Accuracy)**: **Monitor Zone**. Low accuracy but low sales impact (medium priority).
+- 🟢 **Top-Right (High Sales, High Accuracy)**: **Success Zone**. Highly predictable, high-impact products (low risk).
+
+### 3. Granular Demand Metrics Matrix & Alert Levels
+An interactive pivot table with collapsible/expandable headers (`Soda Group`, `Water Group`), search filtering, and Export to CSV capability with automated risk indicators:
+- 🟢 **Strong Performance** ($\text{Accuracy} \ge 85\%$): Safe, well-calibrated forecast profile.
+- 🟡 **Moderate Deviation** ($\text{Accuracy } 70\% \text{ to } 85\%$): Under review for potential adjustments.
+- 🔴 **Critical Exception** ($\text{Accuracy} < 70\%$): High error rate, requires immediate planning review.
+- ⚪ **Pending Data** (Future periods): Actual sales values are not yet loaded.
 
 ---
 
@@ -34,18 +58,6 @@ This project includes a full **Power BI Project (`Demand_Planning_Dashboard.pbip
    ```
 2. Double-click **`Demand_Planning_Dashboard.pbip`** to launch the project directly in **Power BI Desktop**.
 3. All Star Schema tables (`Fact_Demand`, `Dim_Product`, `Dim_Date`), DAX measures (`WAPE`, `MAD`, `MAPE %`, `Bias %`), dropdown slicers, and visual cards will load automatically.
-
----
-
-## 🛠️ Key Dashboard Capabilities & Features
-
-* **Single-Select & Dropdown Slicers**: One-click filter controls (`Year`, `Category`, `Subcategory`, `Product`, `Month`) that update all KPIs, portfolio matrices, trend lines, and data grids.
-* **Product Portfolio Accuracy Matrix**: An interactive bubble chart mapping Cases Volume (Y-Axis) against Forecast Accuracy % (X-Axis), with bubble size representing forecast volume. Includes hover tooltips for risk quadrant analysis.
-* **Granular Demand Metrics Matrix**: An interactive pivot table with collapsible/expandable headers (`Soda Group`, `Water Group`), search filtering, and Export to CSV capability.
-* **Automated Forecast Risk Alerts**: Visual indicators representing planning performance:
-  - 🟢 **Strong Performance** ($\ge 85\%$ Accuracy): Well-calibrated forecast profile.
-  - 🟡 **Moderate Deviation** ($70\% \text{ to } 85\%$ Accuracy): Under review.
-  - 🔴 **Critical Exception** ($< 70\%$ Accuracy): High error rate, requires immediate planning review.
 
 ---
 

@@ -1,8 +1,24 @@
 # Demand Planning Dashboard
 
-🔗 [Live Interactive Dashboard Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/)
+🌐 [Live Interactive Web App Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/) | 📊 [Power BI Project (`.pbip`)](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard.pbip)
 
 An interactive demand planning dashboard that aggregates monthly forecast and sales databases, calculates forecasting accuracy metrics (WAPE, MAD, Bias %, Abs Error) dynamically, and displays category and product-level insights in a clean corporate visual interface.
+
+---
+
+## 📊 Power BI Project (`Demand_Planning_Dashboard.pbip`)
+
+This repository contains a full **Power BI Project (`Demand_Planning_Dashboard.pbip`)** built with Microsoft's Developer Mode format (TMDL + PBIR).
+
+### How Recruiters & Engineers Can Open & Inspect the Report:
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/federicobucayan/Demand-Planning-Dashboard.git
+   ```
+2. Double-click **`Demand_Planning_Dashboard.pbip`** to launch the project directly in **Power BI Desktop**.
+3. All Star Schema tables (`Fact_Demand`, `Dim_Product`, `Dim_Date`), DAX measures (`WAPE`, `MAD`, `MAPE %`, `Bias %`), dropdown slicers, and visual cards will load automatically.
+
+---
 
 ## 🤖 Co-Created with AI (Vibe Coding Showcase)
 
@@ -51,6 +67,7 @@ If you prefer running it manually from your terminal:
 
 ## 💻 Tech Stack
 
+* **Business Intelligence**: Power BI Desktop (PBIP format, TMDL Star Schema, DAX).
 * **Backend/ETL**: Python 3, Pandas, Openpyxl.
 * **Frontend**: HTML5, Vanilla JavaScript, Chart.js (v4), Tailwind CSS (v3/v4), Lucide Icons.
 
@@ -58,7 +75,8 @@ If you prefer running it manually from your terminal:
 
 ## 📂 Repository File Guide
 
-* **`index.html`**: The main interactive visual dashboard. Open this to view the report.
+* **`Demand_Planning_Dashboard.pbip`**: Power BI Project file (Developer Mode).
+* **`index.html`**: The main interactive visual web dashboard. Open this to view the report.
 * **`Update_Dashboard.bat`**: One-click batch script to compile the Excel workbook database and launch the report.
 * **`Forecasting_&_Actuals_Database.xlsx`**: Excel database of forecast and actual sales records.
 * **`README.md`**: Project documentation (this file).

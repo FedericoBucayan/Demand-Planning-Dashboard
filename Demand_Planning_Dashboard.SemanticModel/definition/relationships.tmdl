@@ -1,0 +1,8 @@
+relationship Relationship_Product
+	fromColumn: Fact_Demand.Product
+	toColumn: Dim_Product.Product
+
+relationship Relationship_Date
+	fromColumn: Fact_Demand.Date
+	toColumn: Dim_Date.Date
+

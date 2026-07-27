@@ -1,0 +1,43 @@
+table Dim_Product
+	lineageTag: e33c92f7-e617-4a5d-b250-c6d90092fbfb
+
+	column Product
+		dataType: string
+		isKey
+		lineageTag: f7cfdeed-8708-4fa8-99e8-af4f03c6c0cc
+		summarizeBy: none
+		sourceColumn: Product
+
+	column Subcategory
+		dataType: string
+		lineageTag: 53c9e0c1-e1d9-443e-ad15-3ab2b2c43e93
+		summarizeBy: none
+		sourceColumn: Subcategory
+
+	column Category
+		dataType: string
+		lineageTag: 81650286-7162-436a-a32e-7136d4f3ca01
+		summarizeBy: none
+		sourceColumn: Category
+
+	column 'Packaging Unit'
+		dataType: string
+		lineageTag: ec012190-94a9-4829-a93e-160041c5df65
+		summarizeBy: none
+		sourceColumn: Packaging Unit
+
+	partition Dim_Product = m
+		mode: import
+		source =
+				let
+					Source = Excel.Workbook(File.Contents("C:\Users\bucay\OneDrive\Documents\Fede\AI Test\Demand Planning\Forecasting_&_Actuals_Database.xlsx"), null, true),
+					Database_Sheet = Source{[Item="Database",Kind="Sheet"]}[Data],
+					#"Promoted Headers" = Table.PromoteHeaders(Database_Sheet, [PromoteAllScalars=true]),
+					#"Trimmed Text" = Table.TransformColumns(#"Promoted Headers", { {"Category", Text.Trim}, {"Product", Text.Trim} }),
+					#"Added Subcategory" = Table.AddColumn(#"Trimmed Text", "Subcategory", each if [Product] <> null and Text.Contains(Text.Lower(Text.From([Product])), "water") then "Water" else if [Product] <> null and Text.Contains(Text.Lower(Text.From([Product])), "coke") then "Soda" else "Other", type text),
+					#"Select Columns" = Table.SelectColumns(#"Added Subcategory", {"Product", "Subcategory", "Category", "Packaging Unit"}),
+					#"Distinct Products" = Table.Distinct(#"Select Columns"),
+					#"Filtered Blanks" = Table.SelectRows(#"Distinct Products", each [Product] <> null and Text.Trim(Text.From([Product])) <> "")
+				in
+					#"Filtered Blanks"
+

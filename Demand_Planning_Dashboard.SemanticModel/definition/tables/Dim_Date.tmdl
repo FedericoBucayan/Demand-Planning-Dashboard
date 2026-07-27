@@ -1,0 +1,65 @@
+table Dim_Date
+	lineageTag: 794202c2-e7f2-474e-bdcc-812d0342e7d1
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: dec56786-d952-40fe-ab1a-84faa0894cef
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 30a26146-130e-4cdc-bdce-d61ad1f920f8
+		summarizeBy: none
+		sourceColumn: Year
+
+	column Month
+		dataType: string
+		lineageTag: 3e4aa503-83e1-4421-9a8b-887fad21d256
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: MonthNum
+
+	column MonthNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 16f7acb8-3cdc-4ae8-bae6-fde6a90f2946
+		summarizeBy: none
+		sourceColumn: MonthNum
+
+	column YearMonth
+		dataType: string
+		lineageTag: 6f65edd1-63a2-4690-b44e-a769c15c3061
+		summarizeBy: none
+		sourceColumn: YearMonth
+
+	column MonthYearKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 0efe9340-fed7-46c4-a9d3-8452b8637715
+		summarizeBy: none
+		sourceColumn: MonthYearKey
+
+	partition Dim_Date = m
+		mode: import
+		source =
+				let
+					Source = List.Dates(#date(2020, 1, 1), 2556, #duration(1, 0, 0, 0)),
+					#"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), {"Date"}, null, ExtraValues.Error),
+					#"Changed Type" = Table.TransformColumnTypes(#"Converted to Table",{ {"Date", type date} }),
+					#"Inserted Year" = Table.AddColumn(#"Changed Type", "Year", each Date.Year([Date]), Int64.Type),
+					#"Inserted MonthNum" = Table.AddColumn(#"Inserted Year", "MonthNum", each Date.Month([Date]), Int64.Type),
+					#"Inserted MonthName" = Table.AddColumn(#"Inserted MonthNum", "MonthName", each Date.ToText([Date], "MMM"), type text),
+					#"Upper Month" = Table.TransformColumns(#"Inserted MonthName", { {"MonthName", Text.Upper} }),
+					#"Renamed Month" = Table.RenameColumns(#"Upper Month", { {"MonthName", "Month"} }),
+					#"Inserted YearMonth" = Table.AddColumn(#"Renamed Month", "YearMonth", each Text.From([Year]) & "-" & [Month], type text),
+					#"Inserted MonthYearKey" = Table.AddColumn(#"Inserted YearMonth", "MonthYearKey", each [Year] * 100 + [MonthNum], Int64.Type)
+				in
+					#"Inserted MonthYearKey"
+

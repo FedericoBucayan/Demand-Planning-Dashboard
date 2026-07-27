@@ -1,0 +1,78 @@
+{
+  "name": "DemandPlanningTheme",
+  "dataColors": [
+    "#064E3B",
+    "#C5A880",
+    "#0891B2",
+    "#EF4444",
+    "#10B981",
+    "#B45309",
+    "#0F172A",
+    "#64748B"
+  ],
+  "background": "#F1F5F9",
+  "foreground": "#0F172A",
+  "tableAccent": "#0891B2",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#CBD5E1"
+              }
+            },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F1F5F9"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [
+          {
+            "properties": {
+              "mode": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Dropdown'"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

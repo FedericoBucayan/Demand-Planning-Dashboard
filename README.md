@@ -1,89 +1,70 @@
-# Demand Planning Dashboard
+# Retail Performance Dashboard
 
-[Live Interactive Web App Demo](https://federicobucayan.github.io/Demand-Planning-Dashboard/) | [Power BI Project (.pbip)](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard.pbip) | [Power BI PDF Report Export](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard_PBI_PDF.pdf)
+🌐 [Live Interactive Web App Demo](https://federicobucayan.github.io/Retail-Performance-Dashboard/) | 📊 [Power BI Project (.pbip)](./Retail_Performance_Dashboard.pbip) | 📄 [Power BI PDF Report Export](./Retail_Performance_Dashboard_PBI_PDF.pdf)
 
-An end to end demand planning solution built across two complementary platforms: a live interactive web dashboard (index.html) and a native Power BI project (Demand_Planning_Dashboard.pbip).
+A comprehensive retail analytics solution delivered through two parallel enterprise platforms: a live interactive web dashboard (`index.html`) and a native Power BI Project (`Retail_Performance_Dashboard.pbip`). The solution aggregates multiyear sales spreadsheets, calculates commercial KPIs dynamically, and displays store, category, and product level insights in a clean corporate interface.
 
-This repository was designed specifically as a portfolio showcase for recruiters, hiring managers, and supply chain leaders.
-
----
-
-## Executive Value Proposition for Recruiters and Hiring Managers
-
-### 1. Demand Planning Expertise and Decision-Maker Mindset
-First and foremost, this project demonstrates deep functional expertise in supply chain demand planning and quantitative performance analytics:
-* **Core KPI Analysis**: Calculates and visualizes key planning metrics dynamically including Bias %, Abs Error / Abs Bias, MAPE %, WAPE, and MAD.
-* **Variance and Exception Identification**: Isolates root causes of forecast deviations across category, subcategory, and SKU levels, highlighting critical over forecasting and under forecasting risks.
-* **Decision Support Architecture**: Built from the perspective of an experienced supply chain practitioner and decision maker. The dashboard is engineered to translate raw demand logs into executive insights, facilitating proactive inventory management, safety stock calibration, and S&OP alignment.
-
-### 2. AI-Powered Engineering and Digital Mindset (Co-Created with Google Antigravity)
-Second, this repository showcases a forward thinking digital mindset and passion for modern technology:
-* **Transparency Statement**: I built this entire project combining my expertise in supply chain planning, business data analytics and Power BI in partnership with Google Antigravity (an advanced agentic AI coding assistant).
-* **Bridging Data Analytics and Software Engineering**: While I am highly proficient in data modeling, DAX calculations, and business intelligence, I leveraged agentic AI to bridge the gap into full stack software development by orchestrating Python ETL automation, web application design (HTML5/JS), and Power BI Developer Mode (.pbip TMDL/PBIR) structures.
-* **AI Enthusiast and Early Adopter**: Demonstrates my eagerness to learn, master, and integrate cutting edge AI tools into daily workflows, bringing a curious, innovative, and digital first mindset to any progressive organization.
+This repository was designed specifically as a portfolio showcase for recruiters, hiring managers, and retail industry leaders.
 
 ---
 
-## Technical Framework and Power BI Architecture
+## Executive Value Proposition (For Recruiters & Hiring Managers)
 
-The Power BI Project (.pbip) in this repository was constructed and programmatically validated using the **Power BI Modeling MCP Server** and the **skills-for-fabric** framework.
+### 1. Retail Analytics & Commercial Planning Expertise
+First and foremost, this project demonstrates deep functional expertise in retail commercial analytics and performance measurement:
+* **Core KPI Analysis**: Calculates and visualizes key retail planning metrics dynamically including Net Sales (NS), Net Quantity (NQ), Year over Year (YoY) Growth, Average Selling Price (ASP), Standard Margin % (SM%), Conversion Rate % (CR%), Units Per Transaction (UPT), Average Transaction Value (ATV), and Full Price Mix %.
+* **Multi-Dimensional Breakdown**: Analyzes commercial performance across stores, product categories, merchandise divisions, gender demographics, and product groups with full YoY comparison at every level.
+* **Decision-Support Architecture**: Built from the perspective of an experienced retail planning practitioner and commercial decision-maker. The dashboard is engineered to translate raw sales databases into actionable commercial insights, facilitating strategic decisions around product assortment, channel performance, markdown strategy, and inventory management.
 
-This architecture enforces developer mode best practices, establishing a clean Star Schema data model in TMDL format alongside modular PBIR visual container definitions.
-
-### How Recruiters and Engineers Can Open and Inspect the Report:
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/federicobucayan/Demand-Planning-Dashboard.git
-   ```
-2. Double click **Demand_Planning_Dashboard.pbip** to launch the project directly in **Power BI Desktop** (or use **Launch_PowerBI.bat**).
-3. All Star Schema tables (Fact_Demand, Dim_Product, Dim_Date), DAX measures (WAPE, MAD, MAPE %, Bias %), dropdown slicers, and visual cards will load automatically.
-4. Alternatively, view the exported **[Demand_Planning_Dashboard_PBI_PDF.pdf](https://github.com/federicobucayan/Demand-Planning-Dashboard/blob/main/Demand_Planning_Dashboard_PBI_PDF.pdf)** file directly on GitHub for a quick visual overview.
+### 2. AI-Powered Engineering & Digital Mindset (Co-Created with Google Antigravity)
+Second, this repository showcases a forward-thinking digital mindset and passion for modern technology:
+* **Transparency Statement**: I built this entire project combining my expertise in retail planning and commercial analytics in partnership with Google Antigravity (an advanced agentic AI coding assistant).
+* **Enterprise Power BI PBIP & Fabric Integration**: The Power BI Project (`Retail_Performance_Dashboard.pbip`) was programmatically authored using the Power BI Modeling MCP Server (`powerbi-modeling-mcp`) and Microsoft's `skills-for-fabric` framework. The semantic model TMDL schema and PBIR report visual definitions were systematically created, compiled, and verified through programmatic MCP tooling.
+* **Bridging Data Analytics & Software Engineering**: While I am highly proficient in commercial KPI design, spreadsheet database management, and business intelligence, I leveraged agentic AI to bridge the gap into full stack software development by orchestrating Python ETL automation, web application design, and an automated build and validation pipeline.
+* **AI Enthusiast & Early Adopter**: Demonstrates my eagerness to learn, master, and integrate cutting edge AI tools into daily workflows, bringing a curious, innovative, and digital-first mindset to any progressive organization.
 
 ---
 
 ## Key Dashboard Capabilities and Features
 
-### 1. Forecast Bias Status and Thresholds
-Automated classification of planning bias to identify inventory risk:
-* 🔴 **Over-Forecast (Bias % > +2%)**: Forecast significantly exceeds actual sales, indicating a risk of excess inventory or working capital tie up.
-* 🟢 **Under-Forecast (Bias % < -2%)**: Sales significantly exceed planned forecast, indicating a risk of stockouts or lost revenue.
-* 🔵 **OK Status (-2% <= Bias % <= +2%)**: Forecast is accurately aligned with sales actuals.
+### 1. YoY Performance Comparison Matrix
+A full-page comparison matrix showing current year vs. prior year performance per store and in total, across all core KPIs (NS, NQ, ASP, SM%, Traffic, Transactions, CR%, ATV, UPT, FP Mix%). All YoY movements are color-coded with directional badges (▲/▼).
 
-### 2. Product Portfolio Accuracy Matrix Quadrants
-An interactive bubble chart mapping Sales Cases Volume (Y-Axis) against Forecast Accuracy % (X-Axis), sized by Forecast Volume:
-* 🔴 **Top-Left (High Sales, Low Accuracy)**: Critical Adjustment Zone. High volume, low predictability products. Focus planning adjustments here first for maximum impact.
-* 🟡 **Bottom-Left (Low Sales, Low Accuracy)**: Monitor Zone. Low accuracy but low sales impact (medium priority).
-* 🟢 **Top-Right (High Sales, High Accuracy)**: Success Zone. Highly predictable, high impact products (low risk).
+### 2. Sales Monthly Performance Trend
+An interactive line chart overlaying current year vs. prior year monthly sales or quantity with a Sales ($) / Qty (Units) toggle and a custom multi-month checkbox filter including seasonal (SS, FW) and quarterly (Q1 to Q4) quick-select shortcuts.
 
-### 3. Granular Demand Metrics Matrix and Alert Levels
-An interactive pivot table with collapsible and expandable headers (Soda Group, Water Group), search filtering, and Export to CSV capability with automated risk indicators:
-* 🟢 **Strong Performance (Accuracy >= 85%)**: Safe, well-calibrated forecast profile.
-* 🟡 **Moderate Deviation (Accuracy 70% to 85%)**: Under review for potential adjustments.
-* 🔴 **Critical Exception (Accuracy < 70%)**: High error rate, requires immediate planning review.
-* ⚪ **Pending Data (Future periods)**: Actual sales values are not yet loaded.
+### 3. Categories / Divisions / Gender Comparison Chart
+An interactive bar chart with a dimension toggle (Category, Division, Gender) that dynamically regroups and redraws the chart with per-bar YoY growth labels and a detailed tooltip showing both NS YoY Growth % and NQ YoY Growth % on hover.
+
+### 4. Share of Business Doughnut Charts
+Three side by side doughnut charts showing the percentage contribution to total sales or quantity by Categories, Divisions, and Gender with a Sales / Qty metric toggle.
+
+### 5. Product Group Benchmarks Table
+A sortable breakdown table by Category, Division, or Gender segment with NS, YoY Sales growth, NQ, YoY Qty growth, and Margin % dynamically switching between breakdown dimensions.
+
+### 6. Best Selling Product Groups Ranking
+A dynamic ranking table of all product groups sortable by Net Sales or Net Quantity, displaying NS, Sales YoY Growth, NQ, Qty YoY Growth, and Margin % with color-coded growth badges.
 
 ---
 
-## Tech Stack and Pipeline
+## Tech Stack & Architecture
 
-* **Business Intelligence**: Power BI Desktop (PBIP format, TMDL Star Schema, DAX, Power Query M built with Power BI Modeling MCP Server and skills-for-fabric framework).
-* **Web Application**: HTML5, Vanilla JavaScript, Chart.js (v4), Tailwind CSS (v3/v4), Lucide Icons.
-* **Backend and Data Pipeline**: Python 3 (Pandas, Openpyxl) processing raw Excel databases (Forecasting_&_Actuals_Database.xlsx).
+* **Power BI Fabric Architecture**: Built as a developer-native Power BI Project (`Retail_Performance_Dashboard.pbip`) powered by TMDL definition files and PBIR visual schemas, authored using the Power BI Modeling MCP Server (`powerbi-modeling-mcp`) and Microsoft `skills-for-fabric` framework.
+* **Backend / ETL Pipeline**: Python 3 (Pandas, Openpyxl) aggregating raw Excel databases and compiling structured JSON data arrays.
+* **Web Application**: HTML5, Vanilla JavaScript, Chart.js (v4), Chart.js Datalabels Plugin (v2), Vanilla CSS design system.
+* **Build Automation**: Automated batch script running data preparation, compilation, schema validation checks, and visual execution in a single click.
 
 ---
 
 ## Repository File Guide
 
-* **Demand_Planning_Dashboard.pbip**: Power BI Project file (Developer Mode).
-* **Demand_Planning_Dashboard_PBI_PDF.pdf**: Exported PDF version of the Power BI report for quick visual inspection.
-* **Demand_Planning_Dashboard.SemanticModel/**: TMDL Star Schema model files (Fact_Demand, Dim_Product, Dim_Date, _Measures).
-* **Demand_Planning_Dashboard.Report/**: PBIR report page layout and visual definitions.
-* **Launch_PowerBI.bat**: Batch script to clear background locks and open the Power BI report smoothly.
-* **index.html**: Interactive web dashboard. Open to view the web report offline.
-* **Update_Dashboard.bat**: Batch script to compile spreadsheet databases and launch the web dashboard.
-* **Forecasting_&_Actuals_Database.xlsx**: Base Excel database of forecast logs and actual sales records.
-* **scripts/**: Automation scripts for model generation, report layout creation, and metric verification.
-* **README.md**: Project documentation (this file).
+* **`Retail_Performance_Dashboard.pbip`**: [Power BI Project File (.pbip)](./Retail_Performance_Dashboard.pbip) — Enterprise Power BI Project definition, containing TMDL Semantic Model definition files and PBIR visual report components.
+* **`Retail_Performance_Dashboard_PBI_PDF.pdf`**: [Power BI Dashboard PDF](./Retail_Performance_Dashboard_PBI_PDF.pdf) — Exported high-resolution PDF snapshot of the Power BI report.
+* **`index.html`**: [Live Interactive Web Dashboard](https://federicobucayan.github.io/Retail-Performance-Dashboard/) — The main compiled interactive web visual dashboard. Open this to view the web report.
+* **`Refresh_Retail_Visual_Report.bat`**: Single click batch script to aggregate spreadsheet data, compile the dashboard layout, run validation, and launch the report.
+* **`RET_KPI_Sales_Database.xlsx`**: Store level KPI spreadsheet database.
+* **`RET_Product_Sales_Database.xlsx`**: Product transaction level spreadsheet database.
+* **`README.md`**: Project documentation (this file).
 
 ---
-Designed and Developed by Federico Bucayan | Copyright 2026
+*Designed and Developed by Federico Bucayan | © 2026*

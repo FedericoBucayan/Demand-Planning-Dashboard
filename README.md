@@ -45,22 +45,22 @@ This architecture enforces developer mode best practices, establishing a clean S
 
 ### 1. Forecast Bias Status and Thresholds
 Automated classification of planning bias to identify inventory risk:
-* **Over-Forecast (Bias % > +2%)**: Forecast significantly exceeds actual sales, indicating a risk of excess inventory or working capital tie up.
-* **Under-Forecast (Bias % < -2%)**: Sales significantly exceed planned forecast, indicating a risk of stockouts or lost revenue.
-* **OK Status (-2% <= Bias % <= +2%)**: Forecast is accurately aligned with sales actuals.
+* 🔴 **Over-Forecast (Bias % > +2%)**: Forecast significantly exceeds actual sales, indicating a risk of excess inventory or working capital tie up.
+* 🟢 **Under-Forecast (Bias % < -2%)**: Sales significantly exceed planned forecast, indicating a risk of stockouts or lost revenue.
+* 🔵 **OK Status (-2% <= Bias % <= +2%)**: Forecast is accurately aligned with sales actuals.
 
 ### 2. Product Portfolio Accuracy Matrix Quadrants
 An interactive bubble chart mapping Sales Cases Volume (Y-Axis) against Forecast Accuracy % (X-Axis), sized by Forecast Volume:
-* **Top-Left (High Sales, Low Accuracy)**: Critical Adjustment Zone. High volume, low predictability products. Focus planning adjustments here first for maximum impact.
-* **Bottom-Left (Low Sales, Low Accuracy)**: Monitor Zone. Low accuracy but low sales impact (medium priority).
-* **Top-Right (High Sales, High Accuracy)**: Success Zone. Highly predictable, high impact products (low risk).
+* 🔴 **Top-Left (High Sales, Low Accuracy)**: Critical Adjustment Zone. High volume, low predictability products. Focus planning adjustments here first for maximum impact.
+* 🟡 **Bottom-Left (Low Sales, Low Accuracy)**: Monitor Zone. Low accuracy but low sales impact (medium priority).
+* 🟢 **Top-Right (High Sales, High Accuracy)**: Success Zone. Highly predictable, high impact products (low risk).
 
 ### 3. Granular Demand Metrics Matrix and Alert Levels
 An interactive pivot table with collapsible and expandable headers (Soda Group, Water Group), search filtering, and Export to CSV capability with automated risk indicators:
-* **Strong Performance (Accuracy >= 85%)**: Safe, well-calibrated forecast profile.
-* **Moderate Deviation (Accuracy 70% to 85%)**: Under review for potential adjustments.
-* **Critical Exception (Accuracy < 70%)**: High error rate, requires immediate planning review.
-* **Pending Data (Future periods)**: Actual sales values are not yet loaded.
+* 🟢 **Strong Performance (Accuracy >= 85%)**: Safe, well-calibrated forecast profile.
+* 🟡 **Moderate Deviation (Accuracy 70% to 85%)**: Under review for potential adjustments.
+* 🔴 **Critical Exception (Accuracy < 70%)**: High error rate, requires immediate planning review.
+* ⚪ **Pending Data (Future periods)**: Actual sales values are not yet loaded.
 
 ---
 

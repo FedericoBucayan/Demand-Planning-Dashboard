@@ -9,21 +9,21 @@
     "background": [
       {
         "properties": {
-          "transparency": {
-            "expr": {
-              "Literal": {
-                "Value": "0D"
-              }
-            }
-          },
           "color": {
             "solid": {
               "color": {
                 "expr": {
                   "Literal": {
-                    "Value": "'#C6D8EE'"
+                    "Value": "'#C4E2FF'"
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }

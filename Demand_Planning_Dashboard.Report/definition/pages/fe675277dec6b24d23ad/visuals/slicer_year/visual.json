@@ -3,10 +3,10 @@
   "name": "slicer_year",
   "position": {
     "x": 20,
-    "y": 15,
+    "y": 65,
     "z": 15000,
-    "height": 80,
-    "width": 190
+    "height": 70,
+    "width": 180
   },
   "visual": {
     "visualType": "slicer",
@@ -63,13 +63,6 @@
                 }
               }
             },
-            "radius": {
-              "expr": {
-                "Literal": {
-                  "Value": "8D"
-                }
-              }
-            },
             "color": {
               "solid": {
                 "color": {
@@ -79,6 +72,13 @@
                       "Percent": 0
                     }
                   }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
                 }
               }
             }

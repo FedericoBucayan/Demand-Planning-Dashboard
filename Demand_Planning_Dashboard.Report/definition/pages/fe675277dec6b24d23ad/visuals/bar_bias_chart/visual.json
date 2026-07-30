@@ -3,9 +3,9 @@
   "name": "bar_bias_chart",
   "position": {
     "x": 1035,
-    "y": 220,
+    "y": 245,
     "z": 0,
-    "height": 330,
+    "height": 320,
     "width": 545
   },
   "visual": {
@@ -48,6 +48,40 @@
           ]
         }
       }
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

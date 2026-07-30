@@ -33,12 +33,19 @@
                 "color": "#CBD5E1"
               }
             },
-            "radius": 8
+            "radius": 10
           }
         ],
         "dropShadow": [
           {
-            "show": false
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0000001A"
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight"
           }
         ]
       }
@@ -53,6 +60,31 @@
               }
             },
             "transparency": 0
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0F172A"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0F172A"
+              }
+            },
+            "radius": 8
           }
         ]
       }

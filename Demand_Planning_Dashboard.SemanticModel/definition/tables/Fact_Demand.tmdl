@@ -1,83 +1,149 @@
 table Fact_Demand
-	lineageTag: 8e730ffc-86a9-4ec3-9325-2b56c152c48e
+	lineageTag: 01b47632-8e69-4fb4-b1d1-d3e8ee14cfc3
 
 	column Year
 		dataType: int64
 		formatString: 0
-		lineageTag: 2145b7f3-a424-41e3-9beb-eb10b96b508d
+		lineageTag: 823a6d6b-e12c-4196-9808-6ae16075f4ac
 		summarizeBy: none
 		sourceColumn: Year
 
 	column Month
 		dataType: string
-		lineageTag: e885748d-9bb6-4ece-a357-8ce0b11dde1e
+		lineageTag: ec701979-f9b8-4452-adc9-2e3f5d32509f
 		summarizeBy: none
 		sourceColumn: Month
 
 	column Category
 		dataType: string
-		lineageTag: 6ae323c1-f82d-4c82-8f11-9bf87f592a8d
+		lineageTag: d180cc6c-ac54-4e2c-a4bb-c6d1a58b3081
 		summarizeBy: none
 		sourceColumn: Category
 
 	column Product
 		dataType: string
-		lineageTag: 658a6d41-5787-4c92-8ff4-77a07e6b4d46
+		lineageTag: cfcb6823-0fa3-4007-b168-fb135c3108e3
 		summarizeBy: none
 		sourceColumn: Product
 
 	column Subcategory
 		dataType: string
-		lineageTag: b3fa52ea-bca2-4ed5-ac74-beef40bcf469
+		lineageTag: 2c043ca3-a82e-46ec-9f5c-859bc959aa0b
 		summarizeBy: none
 		sourceColumn: Subcategory
 
 	column 'Packaging Unit'
 		dataType: string
-		lineageTag: 7ff310fa-5875-46eb-96ec-e07a3beed264
+		lineageTag: fdc92877-81a8-41b3-aa43-e845927a9c45
 		summarizeBy: none
 		sourceColumn: Packaging Unit
 
 	column Forecast
 		dataType: int64
 		formatString: #,0
-		lineageTag: 8b18b3ee-000a-4e2d-b4bb-853f51bc9e6a
+		lineageTag: 63583e17-aa95-462a-9a1b-1edc2f630bb8
 		summarizeBy: sum
 		sourceColumn: Forecast
 
 	column Sales
 		dataType: double
 		formatString: #,0
-		lineageTag: f97196fe-6ff2-4dcd-945e-528ca4ed4ac4
+		lineageTag: 32418078-7027-41ea-bd2b-309bc8ff98da
 		summarizeBy: sum
 		sourceColumn: Sales
 
 	column MonthNum
 		dataType: int64
 		formatString: 0
-		lineageTag: 3690940f-2a51-4aac-acfa-85bfe282d783
+		lineageTag: 8a7d9f0f-afd0-421e-bfd4-862747f0539f
 		summarizeBy: none
 		sourceColumn: MonthNum
 
 	column Date
 		dataType: dateTime
 		formatString: yyyy-mm-dd
-		lineageTag: ddbe291e-fcd6-4068-8b53-8e35537ee44e
+		lineageTag: adb00683-c89f-4ad5-8c74-9d474cd780ef
 		summarizeBy: none
 		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
 
 	column MonthYearKey
 		dataType: int64
 		formatString: 0
-		lineageTag: c41e5155-b80c-4be1-afc6-046dbd956128
+		lineageTag: 2a8a50c5-71d5-4c76-97e3-4817d347faac
 		summarizeBy: none
 		sourceColumn: MonthYearKey
+
+	column Column8
+		dataType: string
+		lineageTag: 7655b191-865a-4d15-9b22-3c860db63399
+		summarizeBy: none
+		sourceColumn: Column8
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column9
+		dataType: string
+		lineageTag: 5e30bc26-277b-4f1f-9cf8-f292fbc9d806
+		summarizeBy: none
+		sourceColumn: Column9
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column10
+		dataType: string
+		lineageTag: 16e67c16-5e26-4627-9d0d-61a25ea555dc
+		summarizeBy: none
+		sourceColumn: Column10
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column11
+		dataType: string
+		lineageTag: c3fb8f57-2fd2-4396-b77d-9c9fb9b1eda6
+		summarizeBy: none
+		sourceColumn: Column11
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column12
+		dataType: string
+		lineageTag: 15450ae3-0d40-4092-802a-19d8727accbf
+		summarizeBy: none
+		sourceColumn: Column12
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column13
+		dataType: string
+		lineageTag: ea742de4-2868-48ac-95d3-4130ec5d1fcf
+		summarizeBy: none
+		sourceColumn: Column13
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column14
+		dataType: string
+		lineageTag: b141366a-c0ac-4c14-8977-ba3ced331370
+		summarizeBy: none
+		sourceColumn: Column14
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column15
+		dataType: string
+		lineageTag: 24eb16e5-03cd-4fb1-ad92-608fa49ee5bc
+		summarizeBy: none
+		sourceColumn: Column15
+
+		annotation SummarizationSetBy = Automatic
 
 	partition Fact_Demand = m
 		mode: import
 		source =
 				let
-					Source = Excel.Workbook(File.Contents("C:\Users\bucay\OneDrive\Documents\Fede\AI Test\Demand Planning\Forecasting_&_Actuals_Database.xlsx"), null, true),
+					Source = Excel.Workbook(File.Contents(SourceFilePath), null, true),
 					Database_Sheet = Source{[Item="Database",Kind="Sheet"]}[Data],
 					#"Promoted Headers" = Table.PromoteHeaders(Database_Sheet, [PromoteAllScalars=true]),
 					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{ {"Year", Int64.Type}, {"Month", type text}, {"Category", type text}, {"Product", type text}, {"Packaging Unit", type text}, {"Forecast", Int64.Type}, {"Sales", type number} }),

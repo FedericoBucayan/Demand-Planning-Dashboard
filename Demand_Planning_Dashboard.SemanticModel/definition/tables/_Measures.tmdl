@@ -1,40 +1,40 @@
 table _Measures
-	lineageTag: e022e4e2-5dd1-460f-b989-95c4bae9753a
+	lineageTag: 95f8bdee-53cd-498e-9338-ffa8b55be227
 
 	measure 'Total Sales' = SUM(Fact_Demand[Sales])
 		formatString: #,0
-		displayFolder: Volume Metrics
-		lineageTag: a884a964-c964-41b8-805a-89d47314ec5c
+		displayFolder: 01 Volume Metrics
+		lineageTag: eedaad74-ec7d-435b-a63c-af9f3b97f51c
 
 	measure 'Total Forecast' = SUM(Fact_Demand[Forecast])
 		formatString: #,0
-		displayFolder: Volume Metrics
-		lineageTag: c8edf547-ee82-4bfe-a8b4-c9217de08ba1
+		displayFolder: 01 Volume Metrics
+		lineageTag: a063c3b3-cd8f-44d5-8862-73b0a5ed3ba2
 
 	measure 'Total Forecast Historic' = CALCULATE([Total Forecast], NOT(ISBLANK(Fact_Demand[Sales])))
 		formatString: #,0
-		displayFolder: Volume Metrics
-		lineageTag: 3920d73d-db2b-475d-8356-071dd00d2305
+		displayFolder: 01 Volume Metrics
+		lineageTag: ce32c001-29a6-4c86-b7c7-d9b1b22b08be
 
 	measure 'Raw Error' = [Total Sales] - [Total Forecast Historic]
 		formatString: #,0
-		displayFolder: Error Metrics
-		lineageTag: 5dfdabbb-7612-4654-b778-517bdcc35fa8
+		displayFolder: 02 Error Metrics
+		lineageTag: e4f145f6-30e5-4328-a9bc-cab1b1a6e7c7
 
 	measure 'Abs Error' = SUMX(FILTER(Fact_Demand, NOT(ISBLANK(Fact_Demand[Sales]))), ABS(Fact_Demand[Sales] - Fact_Demand[Forecast]))
 		formatString: #,0
-		displayFolder: Error Metrics
-		lineageTag: bda6ccff-5d70-4b56-8342-5e4ffbf7ad52
+		displayFolder: 02 Error Metrics
+		lineageTag: f1b1caec-d730-4fe7-96e4-eeb35827614b
 
 	measure MAD = AVERAGEX(FILTER(Fact_Demand, NOT(ISBLANK(Fact_Demand[Sales]))), ABS(Fact_Demand[Sales] - Fact_Demand[Forecast]))
 		formatString: #,0.00
-		displayFolder: Error Metrics
-		lineageTag: 04440bc6-6f3e-40cf-8f16-52823f67f444
+		displayFolder: 02 Error Metrics
+		lineageTag: 8c1a5831-b055-4d1c-9c23-20db964ab552
 
 	measure 'Bias %' = DIVIDE([Total Forecast Historic] - [Total Sales], [Total Sales], 0)
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
-		lineageTag: c937faf7-bd17-4341-9ec8-3a1c8c7d4e01
+		displayFolder: 03 Accuracy & Bias
+		lineageTag: 18f1504f-6d6b-4378-bc78-bea67cf13409
 
 	measure 'MAPE %' = ```
 				VAR HistoricRows = FILTER(Fact_Demand, NOT(ISBLANK(Fact_Demand[Sales])))
@@ -49,45 +49,45 @@ table _Measures
 					)
 			```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
-		lineageTag: 3d68b591-c407-4f44-9d37-932399d726dc
+		displayFolder: 03 Accuracy & Bias
+		lineageTag: 1269ebbb-877b-4931-906e-afb345fa0b9a
 
 	measure 'Forecast Accuracy %' = ```
 				VAR MapeVal = [MAPE %]
 				RETURN IF(ISBLANK(MapeVal), BLANK(), MAX(0, 1 - MapeVal))
 			```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
-		lineageTag: d226df67-0ea8-4f0e-8ad3-4258da32ab7c
+		displayFolder: 03 Accuracy & Bias
+		lineageTag: 77e467d6-349f-4999-bafb-5373dfd5aa80
 
 	measure 'WAPE Accuracy %' = ```
 				VAR SalesVal = [Total Sales]
 				RETURN IF(SalesVal > 0, MAX(0, 1 - DIVIDE([Abs Error], SalesVal)), BLANK())
 			```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
-		lineageTag: 01aad43d-61ae-45ad-b5bd-6fe1113c791f
+		displayFolder: 03 Accuracy & Bias
+		lineageTag: 87e1cde0-3782-40bf-b534-9f79c9a440d2
 
 	measure 'Error Color' = ```
 				VAR ErrVal = [Raw Error]
 				RETURN IF(ISBLANK(ErrVal), "#64748B", IF(ErrVal < 0, "#EF4444", IF(ErrVal > 0, "#10B981", "#64748B")))
 			```
-		displayFolder: Formatting Rules
-		lineageTag: 441c687a-774f-4eda-be74-c3c22f20557f
+		displayFolder: 04 Formatting Rules
+		lineageTag: b47b53e5-c7ed-4fb2-8fc4-6a2d0a8274e2
 
 	measure 'Accuracy Alert Color' = ```
 				VAR AccVal = [Forecast Accuracy %]
 				RETURN IF(ISBLANK(AccVal), "#64748B", IF(AccVal >= 0.85, "#10B981", IF(AccVal >= 0.70, "#B45309", "#EF4444")))
 			```
-		displayFolder: Formatting Rules
-		lineageTag: 64d5744d-e383-4653-b001-aeb754e0ff62
+		displayFolder: 04 Formatting Rules
+		lineageTag: d9af765c-0632-40c5-b9c6-b1d7383433f9
 
 	measure 'Bias Color' = ```
 				VAR BiasVal = [Bias %]
 				RETURN IF(ISBLANK(BiasVal), "#64748B", IF(BiasVal > 0.02, "#EF4444", IF(BiasVal < -0.02, "#10B981", "#0891B2")))
 			```
-		displayFolder: Formatting Rules
-		lineageTag: beda385a-7ad5-4562-bb6c-f3a52fc275f9
+		displayFolder: 04 Formatting Rules
+		lineageTag: 75bffcea-d8c2-4c71-891c-d6c2bc433be8
 
 	partition _Measures = m
 		mode: import

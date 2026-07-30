@@ -1,27 +1,25 @@
 table Dim_Date
-	lineageTag: 794202c2-e7f2-474e-bdcc-812d0342e7d1
+	lineageTag: e7e768bf-9a57-4967-ae79-2968f8b84cb5
 	dataCategory: Time
 
 	column Date
 		dataType: dateTime
 		isKey
 		formatString: yyyy-mm-dd
-		lineageTag: dec56786-d952-40fe-ab1a-84faa0894cef
+		lineageTag: 1f5d1c72-7f08-4c09-86ae-4a4983879fef
 		summarizeBy: none
 		sourceColumn: Date
-
-		annotation UnderlyingDateTimeDataType = Date
 
 	column Year
 		dataType: int64
 		formatString: 0
-		lineageTag: 30a26146-130e-4cdc-bdce-d61ad1f920f8
+		lineageTag: 29df7e09-7f5d-499b-9a10-440eff608bef
 		summarizeBy: none
 		sourceColumn: Year
 
 	column Month
 		dataType: string
-		lineageTag: 3e4aa503-83e1-4421-9a8b-887fad21d256
+		lineageTag: 36f7cd08-6d1b-41eb-84d9-690e23fcd811
 		summarizeBy: none
 		sourceColumn: Month
 		sortByColumn: MonthNum
@@ -29,20 +27,20 @@ table Dim_Date
 	column MonthNum
 		dataType: int64
 		formatString: 0
-		lineageTag: 16f7acb8-3cdc-4ae8-bae6-fde6a90f2946
+		lineageTag: c7d38a8c-5e73-42f9-8298-fd8c4f49ff30
 		summarizeBy: none
 		sourceColumn: MonthNum
 
 	column YearMonth
 		dataType: string
-		lineageTag: 6f65edd1-63a2-4690-b44e-a769c15c3061
+		lineageTag: af8c8a0b-ac67-4887-b9be-aebdc5a03ffb
 		summarizeBy: none
 		sourceColumn: YearMonth
 
 	column MonthYearKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 0efe9340-fed7-46c4-a9d3-8452b8637715
+		lineageTag: e7df6996-204e-4e07-aaa9-06fafa7bbb8a
 		summarizeBy: none
 		sourceColumn: MonthYearKey
 

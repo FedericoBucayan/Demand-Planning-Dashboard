@@ -1,28 +1,28 @@
 table Dim_Product
-	lineageTag: e33c92f7-e617-4a5d-b250-c6d90092fbfb
+	lineageTag: 986810f5-ef55-4c27-aece-dd081cf0d23f
 
 	column Product
 		dataType: string
 		isKey
-		lineageTag: f7cfdeed-8708-4fa8-99e8-af4f03c6c0cc
+		lineageTag: b7766cf3-2e61-4704-80d0-a6fb1fdf81a4
 		summarizeBy: none
 		sourceColumn: Product
 
 	column Subcategory
 		dataType: string
-		lineageTag: 53c9e0c1-e1d9-443e-ad15-3ab2b2c43e93
+		lineageTag: 39af529e-c042-4415-a4d7-5cb822ed812c
 		summarizeBy: none
 		sourceColumn: Subcategory
 
 	column Category
 		dataType: string
-		lineageTag: 81650286-7162-436a-a32e-7136d4f3ca01
+		lineageTag: 3254d6c1-4f88-4538-9e49-065fc6f35995
 		summarizeBy: none
 		sourceColumn: Category
 
 	column 'Packaging Unit'
 		dataType: string
-		lineageTag: ec012190-94a9-4829-a93e-160041c5df65
+		lineageTag: e49f9869-7114-4891-b843-536643103983
 		summarizeBy: none
 		sourceColumn: Packaging Unit
 
@@ -30,7 +30,7 @@ table Dim_Product
 		mode: import
 		source =
 				let
-					Source = Excel.Workbook(File.Contents("C:\Users\bucay\OneDrive\Documents\Fede\AI Test\Demand Planning\Forecasting_&_Actuals_Database.xlsx"), null, true),
+					Source = Excel.Workbook(File.Contents(SourceFilePath), null, true),
 					Database_Sheet = Source{[Item="Database",Kind="Sheet"]}[Data],
 					#"Promoted Headers" = Table.PromoteHeaders(Database_Sheet, [PromoteAllScalars=true]),
 					#"Trimmed Text" = Table.TransformColumns(#"Promoted Headers", { {"Category", Text.Trim}, {"Product", Text.Trim} }),

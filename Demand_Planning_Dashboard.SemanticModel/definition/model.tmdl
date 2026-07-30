@@ -10,7 +10,7 @@ annotation __PBI_TimeIntelligenceEnabled = 0
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Fact_Demand","Dim_Product","Dim_Date","_Measures"]
+annotation PBI_QueryOrder = ["Fact_Demand","Dim_Product","Dim_Date","_Measures","SourceFilePath"]
 
 ref table Fact_Demand
 ref table Dim_Product

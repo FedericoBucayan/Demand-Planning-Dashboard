@@ -1,0 +1,5 @@
+expression SourceFilePath = "C:\Users\bucay\OneDrive\Documents\Fede\AI Test\Demand Planning\Forecasting_&_Actuals_Database.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: f2f7d2e3-57b5-41b2-9f76-c546a73ec698
+
+	annotation PBI_ResultType = Text
+

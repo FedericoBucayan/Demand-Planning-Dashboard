@@ -11,7 +11,16 @@ def build_tmdl_model():
     tables_dir = os.path.join(MODEL_DIR, "tables")
     os.makedirs(tables_dir, exist_ok=True)
 
-    # 1. Fact_Demand.tmdl
+    # 1. expressions.tmdl (Source File Path parameter with valid absolute path for Power Query M)
+    expressions_tmdl = f"""expression SourceFilePath = "C:\\Users\\bucay\\OneDrive\\Documents\\Fede\\AI Test\\Demand Planning\\Forecasting_&_Actuals_Database.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: {generate_guid()}
+
+	annotation PBI_ResultType = Text
+"""
+    with open(os.path.join(MODEL_DIR, "expressions.tmdl"), "w", encoding="utf-8") as f:
+        f.write(expressions_tmdl)
+
+    # 2. Fact_Demand.tmdl
     fact_tmdl = f"""table Fact_Demand
 	lineageTag: {generate_guid()}
 
@@ -91,7 +100,7 @@ def build_tmdl_model():
 		mode: import
 		source =
 			let
-				Source = Excel.Workbook(File.Contents("C:\\Users\\bucay\\OneDrive\\Documents\\Fede\\AI Test\\Demand Planning\\Forecasting_&_Actuals_Database.xlsx"), null, true),
+				Source = Excel.Workbook(File.Contents(SourceFilePath), null, true),
 				Database_Sheet = Source{{[Item="Database",Kind="Sheet"]}}[Data],
 				#"Promoted Headers" = Table.PromoteHeaders(Database_Sheet, [PromoteAllScalars=true]),
 				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{ {{"Year", Int64.Type}}, {{"Month", type text}}, {{"Category", type text}}, {{"Product", type text}}, {{"Packaging Unit", type text}}, {{"Forecast", Int64.Type}}, {{"Sales", type number}} }}),
@@ -108,7 +117,7 @@ def build_tmdl_model():
     with open(os.path.join(tables_dir, "Fact_Demand.tmdl"), "w", encoding="utf-8") as f:
         f.write(fact_tmdl)
 
-    # 2. Dim_Product.tmdl
+    # 3. Dim_Product.tmdl
     dim_product_tmdl = f"""table Dim_Product
 	lineageTag: {generate_guid()}
 
@@ -141,7 +150,7 @@ def build_tmdl_model():
 		mode: import
 		source =
 			let
-				Source = Excel.Workbook(File.Contents("C:\\Users\\bucay\\OneDrive\\Documents\\Fede\\AI Test\\Demand Planning\\Forecasting_&_Actuals_Database.xlsx"), null, true),
+				Source = Excel.Workbook(File.Contents(SourceFilePath), null, true),
 				Database_Sheet = Source{{[Item="Database",Kind="Sheet"]}}[Data],
 				#"Promoted Headers" = Table.PromoteHeaders(Database_Sheet, [PromoteAllScalars=true]),
 				#"Trimmed Text" = Table.TransformColumns(#"Promoted Headers", {{ {{"Category", Text.Trim}}, {{"Product", Text.Trim}} }}),
@@ -155,7 +164,7 @@ def build_tmdl_model():
     with open(os.path.join(tables_dir, "Dim_Product.tmdl"), "w", encoding="utf-8") as f:
         f.write(dim_product_tmdl)
 
-    # 3. Dim_Date.tmdl (spans 2020-2026 to cover all years: 2021, 2022, 2023, 2024!)
+    # 4. Dim_Date.tmdl
     dim_date_tmdl = f"""table Dim_Date
 	lineageTag: {generate_guid()}
 	dataCategory: Time
@@ -222,43 +231,43 @@ def build_tmdl_model():
     with open(os.path.join(tables_dir, "Dim_Date.tmdl"), "w", encoding="utf-8") as f:
         f.write(dim_date_tmdl)
 
-    # 4. _Measures.tmdl
+    # 5. _Measures.tmdl
     measures_tmdl = f"""table _Measures
 	lineageTag: {generate_guid()}
 
 	measure 'Total Sales' = SUM(Fact_Demand[Sales])
 		formatString: #,0
-		displayFolder: Volume Metrics
+		displayFolder: 01 Volume Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'Total Forecast' = SUM(Fact_Demand[Forecast])
 		formatString: #,0
-		displayFolder: Volume Metrics
+		displayFolder: 01 Volume Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'Total Forecast Historic' = CALCULATE([Total Forecast], NOT(ISBLANK(Fact_Demand[Sales])))
 		formatString: #,0
-		displayFolder: Volume Metrics
+		displayFolder: 01 Volume Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'Raw Error' = [Total Sales] - [Total Forecast Historic]
 		formatString: #,0
-		displayFolder: Error Metrics
+		displayFolder: 02 Error Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'Abs Error' = SUMX(FILTER(Fact_Demand, NOT(ISBLANK(Fact_Demand[Sales]))), ABS(Fact_Demand[Sales] - Fact_Demand[Forecast]))
 		formatString: #,0
-		displayFolder: Error Metrics
+		displayFolder: 02 Error Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'MAD' = AVERAGEX(FILTER(Fact_Demand, NOT(ISBLANK(Fact_Demand[Sales]))), ABS(Fact_Demand[Sales] - Fact_Demand[Forecast]))
 		formatString: #,0.00
-		displayFolder: Error Metrics
+		displayFolder: 02 Error Metrics
 		lineageTag: {generate_guid()}
 
 	measure 'Bias %' = DIVIDE([Total Forecast Historic] - [Total Sales], [Total Sales], 0)
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
+		displayFolder: 03 Accuracy & Bias
 		lineageTag: {generate_guid()}
 
 	measure 'MAPE %' = ```
@@ -274,7 +283,7 @@ def build_tmdl_model():
 				)
 		```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
+		displayFolder: 03 Accuracy & Bias
 		lineageTag: {generate_guid()}
 
 	measure 'Forecast Accuracy %' = ```
@@ -282,7 +291,7 @@ def build_tmdl_model():
 			RETURN IF(ISBLANK(MapeVal), BLANK(), MAX(0, 1 - MapeVal))
 		```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
+		displayFolder: 03 Accuracy & Bias
 		lineageTag: {generate_guid()}
 
 	measure 'WAPE Accuracy %' = ```
@@ -290,28 +299,28 @@ def build_tmdl_model():
 			RETURN IF(SalesVal > 0, MAX(0, 1 - DIVIDE([Abs Error], SalesVal)), BLANK())
 		```
 		formatString: 0.00%
-		displayFolder: Accuracy & Bias
+		displayFolder: 03 Accuracy & Bias
 		lineageTag: {generate_guid()}
 
 	measure 'Error Color' = ```
 			VAR ErrVal = [Raw Error]
 			RETURN IF(ISBLANK(ErrVal), "#64748B", IF(ErrVal < 0, "#EF4444", IF(ErrVal > 0, "#10B981", "#64748B")))
 		```
-		displayFolder: Formatting Rules
+		displayFolder: 04 Formatting Rules
 		lineageTag: {generate_guid()}
 
 	measure 'Accuracy Alert Color' = ```
 			VAR AccVal = [Forecast Accuracy %]
 			RETURN IF(ISBLANK(AccVal), "#64748B", IF(AccVal >= 0.85, "#10B981", IF(AccVal >= 0.70, "#B45309", "#EF4444")))
 		```
-		displayFolder: Formatting Rules
+		displayFolder: 04 Formatting Rules
 		lineageTag: {generate_guid()}
 
 	measure 'Bias Color' = ```
 			VAR BiasVal = [Bias %]
 			RETURN IF(ISBLANK(BiasVal), "#64748B", IF(BiasVal > 0.02, "#EF4444", IF(BiasVal < -0.02, "#10B981", "#0891B2")))
 		```
-		displayFolder: Formatting Rules
+		displayFolder: 04 Formatting Rules
 		lineageTag: {generate_guid()}
 
 	partition _Measures = m
@@ -327,7 +336,7 @@ def build_tmdl_model():
     with open(os.path.join(tables_dir, "_Measures.tmdl"), "w", encoding="utf-8") as f:
         f.write(measures_tmdl)
 
-    # 5. relationships.tmdl
+    # 6. relationships.tmdl
     rel_tmdl = f"""relationship Relationship_Product
 	fromColumn: Fact_Demand.Product
 	toColumn: Dim_Product.Product
@@ -339,7 +348,7 @@ relationship Relationship_Date
     with open(os.path.join(MODEL_DIR, "relationships.tmdl"), "w", encoding="utf-8") as f:
         f.write(rel_tmdl)
 
-    # 6. Update model.tmdl
+    # 7. Update model.tmdl
     model_tmdl = """model Model
 	culture: en-US
 	defaultPowerBIDataSourceVersion: powerBI_V3
@@ -357,12 +366,14 @@ ref table Dim_Product
 ref table Dim_Date
 ref table _Measures
 
+ref expression SourceFilePath
+
 ref cultureInfo en-US
 """
     with open(os.path.join(MODEL_DIR, "model.tmdl"), "w", encoding="utf-8") as f:
         f.write(model_tmdl)
 
-    print("Dim_Date updated to cover 2020-2026!")
+    print("Updated TMDL model with valid absolute SourceFilePath parameter successfully!")
 
 if __name__ == "__main__":
     build_tmdl_model()
